@@ -1,0 +1,6 @@
+{
+  "name": "FundBridge",
+  "description": "FundBridge is a modern crowdfunding platform connecting innovative creators with passionate supporters to fund ideas, track milestones, and manage contributions with role-based dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

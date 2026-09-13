@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/* Custom Swiper navigation & pagination color tuning */
+.swiper-pagination-bullet-active {
+  background: #0d9488 !important;
+  width: 24px !important;
+  border-radius: 9999px !important;
+  transition: all 0.3s ease;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ffffff !important;
+  background: rgba(15, 23, 42, 0.6);
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 9999px;
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.2s ease;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 16px !important;
+  font-weight: bold;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: rgba(13, 148, 136, 0.9);
+}
+
+/* Hide scrollbar for category bar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
